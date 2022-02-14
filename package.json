@@ -1,14 +1,23 @@
 {
-  "name": "no-name",
-  "version": "0.9.4",
-  "description": "Test",
-  "license": "UNLICENSE",
-  "author": "Test",
-  "dependencies": {
-    "@polymer/polymer": "^3.4.0",
-    "@vaadin/vaadin-core-shrinkwrap": "^23.0.0-beta2"
+  "name": "npm-overrides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "overrides": {
-    "@polymer/polymer": "$@polymer/polymer"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur-/npm-overrides-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artur-/npm-overrides-test/issues"
+  },
+  "homepage": "https://github.com/Artur-/npm-overrides-test#readme",
+  "dependencies": {
+    "@polymer/polymer": "^3.2.0",
+    "@vaadin/vaadin-core-shrinkwrap": "^23.0.0-beta1"
+  },"overrides": { "@polymer/polymer": "$@polymer/polymer"}
 }
