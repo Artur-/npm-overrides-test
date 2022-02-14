@@ -5,8 +5,8 @@
   "license": "UNLICENSE",
   "author": "Test",
   "dependencies": {
-    "@polymer/polymer": "3.4.1",
-    "@vaadin/vaadin-core-shrinkwrap": "23.0.0-beta2"
+    "@polymer/polymer": "^3.4.0",
+    "@vaadin/vaadin-core-shrinkwrap": "^23.0.0-beta2"
   },
   "overrides": {
     "@polymer/polymer": "$@polymer/polymer"
